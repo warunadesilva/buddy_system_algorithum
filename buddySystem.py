@@ -74,7 +74,7 @@ class BuddyAllocator:
             print(f"Size {size}: {addresses}")
         print()
 
-# Example Usage
+# Main function
 if __name__ == "__main__":
     allocator = BuddyAllocator(128)  # Initialize with 128 units of memory
 
